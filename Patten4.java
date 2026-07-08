@@ -17,18 +17,18 @@ public class Patten4
 				}
 				System.out.println("");
 			}
-			else
+		}
+		for(int i=0;i<n/2+1;i++)
+		{
+			for(int j=0;j<i;j++)
+				{
+					System.out.print("  ");
+				}
+			for(int k=0;k<n/2-i+1;k++)
 			{
-				for(int j=0;j<i;j++)
-				{
-					System.out.print(" ");
-				}
-				for(int k=0;k<n-i;k++)
-				{
-					System.out.print("* ");
-				}
-				System.out.println("");
+				System.out.print("* ");
 			}
+			System.out.println("");
 		}
 	}
 }
